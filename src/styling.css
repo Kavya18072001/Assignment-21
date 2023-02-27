@@ -1,0 +1,40 @@
+table{
+    border:1px solid black;
+    border-collapse: collapse;
+    margin-left:30px;
+    margin-top: 30px;
+}
+th,td{
+    border: 1px solid black;
+    padding: 20px;
+}
+.header{
+    display:flex;
+  padding-top: 10px;
+}
+.btns{
+   margin:10px;
+   cursor: pointer;
+}
+.select-dropdown{
+    height: 23px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.search-feild{
+    width: 354px;
+    height: 18px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.star-icon{
+    font-size: 25px;
+    color: #999;
+}
+
+  
+  .star-icon.starred {
+    color: #f0c040;
+    background-color:red;
+  }
